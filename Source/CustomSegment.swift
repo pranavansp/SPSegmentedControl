@@ -2,7 +2,7 @@
 //  SPCustomSegment.swift
 //  SegmentControllerSample
 //
-//  Created by Sivarajah Pranavan on 8/14/17.
+//  Created by Sivarajah Pranavan on 8/19/17.
 //  Copyright © 2017 Pranavan. All rights reserved.
 //
 
