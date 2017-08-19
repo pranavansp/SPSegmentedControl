@@ -33,7 +33,7 @@ Selected Color : Background color for segment in selected state. <br/>
 
 # License
 
-SPSegmentedControl is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE.md) file for full details.
+SPSegmentedControl is licensed under the terms of the MIT License. Please see the [LICENSE](LICENSE) file for full details.
 
 If this code was helpful, I would love to hear from you.
 
