@@ -37,4 +37,4 @@ SPSegmentedControl is licensed under the terms of the MIT License. Please see th
 
 If this code was helpful, I would love to hear from you.
 
-[@HeshamMegid](http://twitter.com/ImPrana)   
+[@Pranavan](http://twitter.com/ImPrana)   
