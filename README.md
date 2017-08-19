@@ -37,4 +37,5 @@ SPSegmentedControl is licensed under the terms of the MIT License. Please see th
 
 If this code was helpful, I would love to hear from you.
 
-Twitter : [@Pranavan](http://twitter.com/ImPrana)
+Twitter : [@Pranavan](http://twitter.com/ImPrana) <br/>
+If you have any questions please post your comments on  [@BeTheDev](http://www.bethedev.com/2017/08/custom-segmented-control-menu-in-swift-3.html)
