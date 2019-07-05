@@ -29,6 +29,9 @@ add SPCustomSegment.swift into your Xcode project file. <br/>
         }
     }
  ```   
+ 
+ <img src="https://raw.githubusercontent.com/pranavansp/SPSegmentedControl/master/Screen%20Shot%202019-07-05%20at%202.26.19%20PM.png" /></a>
+ 
 # The demo project
 demo project will be upload soon. <br/>
 
