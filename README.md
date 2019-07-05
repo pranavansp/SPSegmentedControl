@@ -2,7 +2,7 @@
 Custom segmented Control menu in Swift 3 for UI flat iOS designs
 
 # Screenshots
-<a href="https://imgflip.com/gif/1ud2mz"><img src="https://i.imgflip.com/1ud2mz.gif" title="made at imgflip.com"/></a>
+<img src="https://raw.githubusercontent.com/pranavansp/SPSegmentedControl/master/Screen%20Shot%202019-07-05%20at%202.21.51%20PM.png" /></a>
 
 # Features
 - Supports additional new segments <br/>
@@ -17,28 +17,13 @@ add SPCustomSegment.swift into your Xcode project file. <br/>
 @IBAction func customSegmentValChnge(_ sender: CustomSegment) {
         switch sender.selectedSegmentIndex {
         case 0:
-            
-            UIView.animate(withDuration: 0.3, animations: {
-                self.nonLeadingContrains.constant = -600
-                self.matchView.transform = .identity
-                self.partyView.transform = .identity
-            })
+            print("SMS")
             break
         case 1:
-            UIView.animate(withDuration: 0.3, animations: {
-                self.nonLeadingContrains.constant = -600
-                self.partyView.transform = CGAffineTransform(translationX: +200, y: 0)
-                let x = self.view.center.x - self.matchView.center.x
-                self.matchView.transform = CGAffineTransform(translationX: x, y: 0)
-            })
+            print("Interuption")
             break
         case 2:
-            UIView.animate(withDuration: 0.3, animations: {
-                self.partyView.transform = CGAffineTransform(translationX: +200, y: 0)
-                let x = self.view.center.x - self.matchView.center.x
-                self.matchView.transform = CGAffineTransform(translationX: x, y: 0)
-                self.nonLeadingContrains.constant = 97
-            })
+             print("Disconnection")
             break
         default:
         }
