@@ -66,11 +66,14 @@ class SPCustomSegment: UIControl {
         
         for buttonTitle in buttonTitles{
             let button = UIButton(type: .system)
+            button.titleLabel?.textAlignment = .center
+            button.titleLabel?.numberOfLines = 0
             button.setTitle(buttonTitle, for: .normal)
             button.setTitleColor(textColor, for: .normal)
             button.addTarget(self, action:#selector(buttonTapped(button:)) ,for: .touchUpInside)
             buttons.append(button)
         }
+        
         buttons[0].setTitleColor(selectorTextColor, for: .normal)
         let selectorWidth = frame.width / CGFloat(buttonTitles.count)
         selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height))
@@ -81,7 +84,7 @@ class SPCustomSegment: UIControl {
         let stackView = UIStackView(arrangedSubviews: buttons)
         stackView.axis = .horizontal
         stackView.alignment = .fill
-        stackView.distribution = .fillProportionally
+        stackView.distribution = .fillEqually
         addSubview(stackView)
         
         stackView.translatesAutoresizingMaskIntoConstraints = false
@@ -96,7 +99,7 @@ class SPCustomSegment: UIControl {
          layer.cornerRadius = frame.height/2
     }
     
-    func buttonTapped(button : UIButton) {
+    @objc func buttonTapped(button : UIButton) {
         for (buttonIndex, btn) in buttons.enumerated() {
             btn.setTitleColor(textColor, for: .normal)
             
