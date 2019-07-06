@@ -7,12 +7,6 @@
 //
 
 import UIKit
-import SVProgressHUD
-import Alamofire
-
-enum AlertType{
-    case SMS,Interuption,Disconnection
-}
 
 class ViewController: UIViewController {
     
